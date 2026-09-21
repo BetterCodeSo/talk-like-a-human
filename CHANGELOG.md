@@ -4,6 +4,14 @@ Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versio
 
 ## [Unreleased]
 
+### Added
+
+- `CLAUDE.md`, the working instructions for this repository: the routine that pushes every change to `origin/main`, how to add a rule and its two tests, and the step that reinstalls the live copy under `~/.config/ai-style/`.
+
+### Changed
+
+- `make lint-docs` and the CI job now lint `CLAUDE.md` as well.
+
 ## [0.1.0] - 2026-09-21 <!-- ai-style: ignore, Keep a Changelog date format -->
 
 First public release.

@@ -1,5 +1,5 @@
 PYTHON ?= python3
-DOCS   := README.md CHANGELOG.md
+DOCS   := README.md CHANGELOG.md CLAUDE.md
 
 .PHONY: all test lint-docs shellcheck check install install-git clean
 

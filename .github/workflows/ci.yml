@@ -34,7 +34,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Lint the repository prose
-        run: python prose_lint.py README.md CHANGELOG.md
+        run: python prose_lint.py README.md CHANGELOG.md CLAUDE.md
 
   shellcheck:
     runs-on: ubuntu-latest
